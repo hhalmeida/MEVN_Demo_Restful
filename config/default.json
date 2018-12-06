@@ -1,0 +1,22 @@
+{
+    "mongo": {
+      "local": {
+        "username": "",
+        "password": "",
+        "server": "localhost",
+        "port": 27017,
+        "database": "mevn_api",
+        "collection": "mevn_api"
+      },
+  
+      "prod": {
+        "username": "",
+        "password": "",
+        "server": "",
+        "port": "",
+        "database": "mevn_api",
+        "collection": "mevn_api"
+      }
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "name": "mevn_demo_restful",
+  "version": "1.0.0",
+  "description": "the project MEVN demo restful",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhalmeida/MEVN_Demo_Restful.git"
+  },
+  "author": "“Hugo <hhalmeida3@gmail.com> (http://hhalmeida.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhalmeida/MEVN_Demo_Restful/issues"
+  },
+  "homepage": "https://github.com/hhalmeida/MEVN_Demo_Restful#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.0.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "mongojs": "^2.6.0",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
